@@ -1,0 +1,6 @@
+auth/node_modules/
+.config
+auth/.eslintrc.js
+auth/package-lock.json
+auth/tsconfig.json
+auth/package.json
