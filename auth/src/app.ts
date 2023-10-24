@@ -5,6 +5,7 @@ const app = express()
 app.get('*', (req:Request, res:Response) => {
   res.send('hello')
 })
+app.use(json)
 app.use(signuprouter)
 app.listen(9000, () => {
   console.log('running succesg s')
